@@ -22,7 +22,7 @@
   "_where": "/Users/johanreveillard/Development/MMJ/hybrid",
   "author": {
     "name": "Carlos Santos Morales"
-  }
+  },
   "bugs": {
     "url": "https://github.com/joorev/npm-cordova-plugin-veriff/issues"
   },
@@ -55,7 +55,7 @@
     "webpack": "4.42.1",
     "webpack-cli": "3.3.11"
   },
-  "homepage": "https://github.com/joorev/npm-cordova-plugin-veriff#readme"
+  "homepage": "https://github.com/joorev/npm-cordova-plugin-veriff#readme",
   "keywords": [
     "veriff",
     "identity verification",
@@ -73,5 +73,5 @@
   "scripts": {
     "build": "webpack -p"
   },
-  "version": "1.1.0",
+  "version": "1.1.0"
 }
