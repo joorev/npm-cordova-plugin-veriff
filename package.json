@@ -18,7 +18,7 @@
     "#USER",
     "/"
   ],
-  "_spec": "cordova-plugin-veriff@1.1.0",
+  "_spec": "npm-cordova-plugin-veriff@1.1.0",
   "_where": "/Users/johanreveillard/Development/MMJ/hybrid",
   "author": {
     "name": "Carlos Santos Morales"
@@ -28,7 +28,7 @@
   },
   "bundleDependencies": false,
   "cordova": {
-    "id": "cordova-plugin-veriff",
+    "id": "npm-cordova-plugin-veriff",
     "platforms": [
       "android",
       "ios"
@@ -65,7 +65,7 @@
     "ios"
   ],
   "license": "Apache-2.0",
-  "name": "cordova-plugin-veriff",
+  "name": "npm-cordova-plugin-veriff",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joorev/npm-cordova-plugin-veriff.git"
