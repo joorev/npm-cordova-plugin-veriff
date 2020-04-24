@@ -1,52 +1,77 @@
 {
-	"name": "cordova-plugin-veriff",
-	"version": "1.1.0",
-	"description": "Cordova plugin exposing Veriff SDK",
-	"scripts": {
-		"build": "webpack -p"
-	},
-	"cordova": {
-		"id": "cordova-plugin-veriff",
-		"platforms": [
-			"android",
-			"ios"
-		]
-	},
-	"devDependencies": {
-		"@babel/core": "7.9.0",
-		"@babel/preset-env": "7.9.0",
-		"babel-core": "6.26.3",
-		"babel-eslint": "10.1.0",
-		"babel-loader": "8.1.0",
-		"babel-preset-es2015": "6.24.1",
-		"babel-preset-react": "6.24.1",
-		"babel-preset-react-hmre": "1.1.1",
-		"eslint": "6.8.0",
-		"eslint-config-airbnb": "18.1.0",
-		"eslint-loader": "3.0.3",
-		"eslint-plugin-import": "2.20.1",
-		"eslint-plugin-jsx-a11y": "6.2.3",
-		"eslint-plugin-react": "7.19.0",
-		"eslint-plugin-react-hooks": "2.5.0",
-		"webpack": "4.42.1",
-		"webpack-cli": "3.3.11"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/CSantosM/cordova-plugin-veriff.git"
-	},
-	"keywords": [
-		"veriff",
-		"identity verification",
-		"cordova",
-		"ionic",
-		"android",
-		"ios"
-	],
-	"author": "Carlos Santos Morales",
-	"license": "Apache-2.0",
-	"bugs": {
-		"url": "https://github.com/CSantosM/cordova-plugin-veriff/issues"
-	},
-	"homepage": "https://github.com/CSantosM/cordova-plugin-veriff#readme"
+  "_from": "npm-cordova-plugin-veriff@1.1.0",
+  "_id": "npm-cordova-plugin-veriff@1.1.0",
+  "_inBundle": false,
+  "_location": "/npm-cordova-plugin-veriff",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "npm-cordova-plugin-veriff@1.1.0",
+    "name": "npm-cordova-plugin-veriff",
+    "escapedName": "npm-cordova-plugin-veriff",
+    "rawSpec": "1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "1.1.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_spec": "cordova-plugin-veriff@1.1.0",
+  "_where": "/Users/johanreveillard/Development/MMJ/hybrid",
+  "author": {
+    "name": "Carlos Santos Morales"
+  }
+  "bugs": {
+    "url": "https://github.com/joorev/npm-cordova-plugin-veriff/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-veriff",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin exposing Veriff SDK",
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "babel-core": "6.26.3",
+    "babel-eslint": "10.1.0",
+    "babel-loader": "8.1.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-react-hmre": "1.1.1",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.1.0",
+    "eslint-loader": "3.0.3",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "2.5.0",
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11"
+  },
+  "homepage": "https://github.com/joorev/npm-cordova-plugin-veriff#readme"
+  "keywords": [
+    "veriff",
+    "identity verification",
+    "cordova",
+    "ionic",
+    "android",
+    "ios"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-veriff",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joorev/npm-cordova-plugin-veriff.git"
+  },
+  "scripts": {
+    "build": "webpack -p"
+  },
+  "version": "1.1.0",
 }
