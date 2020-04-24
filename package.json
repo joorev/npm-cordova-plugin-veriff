@@ -1,24 +1,27 @@
 {
-  "_from": "npm-cordova-plugin-veriff@1.1.0",
-  "_id": "npm-cordova-plugin-veriff@1.1.0",
+  "_from": "npm-cordova-plugin-veriff@1.2.0",
+  "_id": "npm-cordova-plugin-veriff@1.2.0",
   "_inBundle": false,
+  "_integrity": "sha512-6IM96vV3cAoXW15UYVcPZb8dFYTr4r5jHjFp/2YfZqxLjFutp5Ra2oyU7O4P7GktCa1eo7v50gP32INHUwK6KA==",
   "_location": "/npm-cordova-plugin-veriff",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "npm-cordova-plugin-veriff@1.1.0",
+    "raw": "npm-cordova-plugin-veriff@1.2.0",
     "name": "npm-cordova-plugin-veriff",
     "escapedName": "npm-cordova-plugin-veriff",
-    "rawSpec": "1.1.0",
+    "rawSpec": "1.2.0",
     "saveSpec": null,
-    "fetchSpec": "1.1.0"
+    "fetchSpec": "1.2.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_spec": "npm-cordova-plugin-veriff@1.1.0",
+  "_resolved": "https://registry.npmjs.org/npm-cordova-plugin-veriff/-/npm-cordova-plugin-veriff-1.2.0.tgz",
+  "_shasum": "20f8228a7c9b3e16642913c976af57973effdadf",
+  "_spec": "npm-cordova-plugin-veriff@1.2.0",
   "_where": "/Users/johanreveillard/Development/MMJ/hybrid",
   "author": {
     "name": "Carlos Santos Morales"
@@ -73,5 +76,5 @@
   "scripts": {
     "build": "webpack -p"
   },
-  "version": "1.1.0"
+  "version": "1.2.0"
 }
