@@ -66,10 +66,6 @@ extension VeriffCordovaPlugin : VeriffDelegate {
 			// Network is unavailable.
 			text += "Network is unavailable"
 			break
-		case .STATUS_ERROR_NO_IDENTIFICATION_METHODS_AVAILABLE:
-			// No identifications methods available
-			text += "No identifications methods available"
-			break
 		case .STATUS_ERROR_UNKNOWN:
 			// Unknown error occurred.
 			text += "Unknown error occurred"
@@ -78,6 +74,11 @@ extension VeriffCordovaPlugin : VeriffDelegate {
 			// Failed to access device's microphone.
 			text += "Failed to access device's microphone"
 			break
+		}
+        case .UNSUPPORTED_SDK_VERSION:
+            // This version of Veriff SDK is deprecated.
+            text = "This version of Veriff SDK is deprecated"
+            break
 		}
 		
 		self.returnSuccessToCordova(message: text)
