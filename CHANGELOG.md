@@ -1,5 +1,15 @@
 # Changelog
 
+## Version 1.5.0
+
+### iOS
+
+        * tidy up results
+
+### Android
+
+        * tidy up results
+
 ## Version 1.4.0
 
 ### iOS

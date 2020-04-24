@@ -59,62 +59,62 @@ public class VeriffCordovaPlugin  extends CordovaPlugin {
     }
 
     public void handleResult(int statusCode, String sessionToken){
-        String text = "VeriffSDK Result: ";
+        String text = "";
         switch(statusCode) {
+            case VeriffConstants.STATUS_DONE:
+                // Session is completed from clients perspective.
+                text = "STATUS_DONE";
+                break;
             case VeriffConstants.STATUS_USER_FINISHED:
                 // User finished the session, there might be other callbacks coming after this one. (for example if the images are still being uploaded in the background)
-                text += "User finished the session";
-                break;
-            case VeriffConstants.STATUS_ERROR_NO_IDENTIFICATION_METHODS_AVAILABLE:
-                // No identifications methods available
-                text += "No identifications methods available";
-                break;
-            case VeriffConstants.STATUS_ERROR_SETUP:
-                // Issue with the provided vendor data
-                text += "Issue with the provided vendor data";
-                break;
-            case VeriffConstants.STATUS_ERROR_UNKNOWN:
-                // Unknown error occurred.
-                text += "Unknown error occurred";
-                break;
-            case VeriffConstants.STATUS_ERROR_NETWORK:
-                // Network is unavailable.
-                text += "Network is unavailable";
-                break;
-            case VeriffConstants.STATUS_USER_CANCELED:
-                // User cancelled the session.
-                text += "User cancelled the session";
-                break;
-            case VeriffConstants.STATUS_UNABLE_TO_ACCESS_CAMERA:
-                // Failed to access device's camera. (either access denied or there are no usable cameras)
-                text += "Failed to access device's camera";
-                break;
-            case VeriffConstants.STATUS_UNABLE_TO_START_CAMERA:
-                // Failed to start the device's camera.
-                text += "Failed to start the device's camera";
-                break;
-            case VeriffConstants.STATUS_UNABLE_TO_RECORD_AUDIO:
-                // Failed to access device's microphone.
-                text += "Failed to access device's microphone";
+                text = "STATUS_USER_FINISHED";
                 break;
             case VeriffConstants.STATUS_SUBMITTED:
                 // Photos are successfully uploaded.
-                text += "Photos are successfully uploaded";
+                text = "STATUS_SUBMITTED";
+                break;
+            case VeriffConstants.STATUS_USER_CANCELED:
+                // User cancelled the session.
+                text = "STATUS_USER_CANCELED";
+                break;
+            case VeriffConstants.STATUS_ERROR_NO_IDENTIFICATION_METHODS_AVAILABLE:
+                // No identifications methods available
+                text = "STATUS_ERROR_NO_IDENTIFICATION_METHODS_AVAILABLE";
+                break;
+            case VeriffConstants.STATUS_ERROR_SETUP:
+                // Issue with the provided vendor data
+                text = "STATUS_ERROR_SETUP";
+                break;
+            case VeriffConstants.STATUS_ERROR_UNKNOWN:
+                // Unknown error occurred.
+                text = "STATUS_ERROR_UNKNOWN";
+                break;
+            case VeriffConstants.STATUS_ERROR_NETWORK:
+                // Network is unavailable.
+                text = "STATUS_ERROR_NETWORK";
+                break;
+            case VeriffConstants.STATUS_UNABLE_TO_ACCESS_CAMERA:
+                // Failed to access device's camera. (either access denied or there are no usable cameras)
+                text = "STATUS_UNABLE_TO_ACCESS_CAMERA";
+                break;
+            case VeriffConstants.STATUS_UNABLE_TO_START_CAMERA:
+                // Failed to start the device's camera.
+                text = "STATUS_UNABLE_TO_START_CAMERA";
+                break;
+            case VeriffConstants.STATUS_UNABLE_TO_RECORD_AUDIO:
+                // Failed to access device's microphone.
+                text = "STATUS_UNABLE_TO_RECORD_AUDIO";
                 break;
             case VeriffConstants.STATUS_ERROR_SESSION:
                 // Invalid sessionToken is passed to the Veriff SDK.
-                text += "Invalid sessionToken is passed to the Veriff SDK";
-                break;
-            case VeriffConstants.STATUS_DONE:
-                // Session is completed from clients perspective.
-                text += "Session is completed from clients perspective";
+                text = "InvaSTATUS_ERROR_SESSION";
                 break;
             case VeriffConstants.STATUS_ERROR_UNSUPPORTED_SDK_VERSION:
                 // This version of Veriff SDK is deprecated.
-                text = "This version of Veriff SDK is deprecated";
+                text = "STATUS_ERROR_UNSUPPORTED_SDK_VERSION";
                 break;
             default:
-                text = "Unknown result state";
+                text = "UNKNOWN";
                 break;
         }
         Log.d("Handle VeriffSDK result", text);

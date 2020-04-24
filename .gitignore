@@ -1,1 +1,5 @@
 node_modules
+.idea/
+$RECYCLE.BIN/
+.DS_Store
+Thumbs.db
