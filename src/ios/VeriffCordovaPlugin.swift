@@ -52,7 +52,7 @@ extension VeriffCordovaPlugin : VeriffDelegate {
 			break
 		case .STATUS_USER_CANCELED:
 			// User cancelled the session.
-			text= "STATUS_USER_CANCELED";
+			text = "STATUS_USER_CANCELED";
 			break
 		case .STATUS_ERROR_SESSION:
 			// Invalid sessionToken is passed to the Veriff SDK.

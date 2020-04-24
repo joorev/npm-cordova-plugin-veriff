@@ -1,25 +1,25 @@
 {
-  "_from": "npm-cordova-plugin-veriff@1.5.0",
-  "_id": "npm-cordova-plugin-veriff@1.5.0",
+  "_from": "npm-cordova-plugin-veriff@1.6.0",
+  "_id": "npm-cordova-plugin-veriff@1.6.0",
   "_inBundle": false,
   "_location": "/npm-cordova-plugin-veriff",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "npm-cordova-plugin-veriff@1.5.0",
+    "raw": "npm-cordova-plugin-veriff@1.6.0",
     "name": "npm-cordova-plugin-veriff",
     "escapedName": "npm-cordova-plugin-veriff",
-    "rawSpec": "1.5.0",
+    "rawSpec": "1.6.0",
     "saveSpec": null,
-    "fetchSpec": "1.5.0"
+    "fetchSpec": "1.6.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/npm-cordova-plugin-veriff/-/npm-cordova-plugin-veriff-1.5.0.tgz",
-  "_spec": "npm-cordova-plugin-veriff@1.5.0",
+  "_resolved": "https://registry.npmjs.org/npm-cordova-plugin-veriff/-/npm-cordova-plugin-veriff-1.6.0.tgz",
+  "_spec": "npm-cordova-plugin-veriff@1.6.0",
   "_where": "/Users/johanreveillard/Development/MMJ/hybrid",
   "author": {
     "name": "Carlos Santos Morales"
@@ -74,5 +74,5 @@
   "scripts": {
     "build": "webpack -p"
   },
-  "version": "1.5.0"
+  "version": "1.6.0"
 }

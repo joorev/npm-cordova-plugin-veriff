@@ -1,5 +1,13 @@
 # Changelog
 
+## Version 1.6.0
+
+### iOS
+
+        * typo fix
+
+# Changelog
+
 ## Version 1.5.0
 
 ### iOS
