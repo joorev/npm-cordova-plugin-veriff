@@ -1,5 +1,21 @@
 # Changelog
 
+## Version 1.3.0
+
+### iOS
+
+        * Use veriff-library **v2.8.3**
+
+## Version 1.2.0
+
+### Android
+
+        * Use veriff-library **v2.11.2  **
+
+### iOS
+
+        * Use veriff-library **v2.8.2**
+
 ## Version 1.1.0
 
 ### Android
